@@ -1,0 +1,25 @@
+node_modules/
+*.log
+*.user
+.vs/
+native/**/bin/
+native/**/obj/
+com.vocllum.vivid-display.sdPlugin/bin/*.map
+com.vocllum.vivid-display.sdPlugin/bin/host/*
+!com.vocllum.vivid-display.sdPlugin/bin/host/.gitkeep
+com.vocllum.vivid-display.sdPlugin/logs/
+release/
+publish/
+.agents/
+*.streamDeckPlugin
+
+# Keep generated runtime output out of source control.
+com.vocllum.vivid-display.sdPlugin/bin/plugin.js
+com.vocllum.vivid-display.sdPlugin/bin/package.json
+com.vocllum.vivid-display.sdPlugin/bin/host/
+!com.vocllum.vivid-display.sdPlugin/bin/host/.gitkeep
+
+# Local design exports and temporary assets.
+design/exports/
+backups/
+*.bak
