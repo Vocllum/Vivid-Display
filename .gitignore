@@ -12,6 +12,7 @@ release/
 publish/
 .agents/
 *.streamDeckPlugin
+!marketplace/*.streamDeckPlugin
 
 # Keep generated runtime output out of source control.
 com.vocllum.vivid-display.sdPlugin/bin/plugin.js
